@@ -34,6 +34,8 @@ RUN useradd -G www-data,root -u $uid -d /home/$user $user \
     && mkdir -p /home/$user/.composer \
     && chown -R $user:$user /home/$user
 
+RUN chmod +x /usr/local/bin/php
+
 # Define o diretório de trabalho
 WORKDIR /var/www
 

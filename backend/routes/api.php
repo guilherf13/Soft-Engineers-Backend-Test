@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UploadController;
+use App\Http\Controllers\DebtController;
+use App\Http\Controllers\AuthController;
 
 //Cria um usuario autenticado para teste
-Route::post('/tokens/create', [UploadController::class, 'createToken']);
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 
 Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
-    Route::post('/upload', [UploadController::class, 'uploadFile']);
-    Route::get('/upload', [UploadController::class, 'uploadHistory']);
-    Route::get('/search-content', [UploadController::class, 'searchContent']);
+    Route::post('/debts/import', [DebtController::class, 'importCsv']);
 });
 
 Route::fallback(function () {
