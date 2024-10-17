@@ -101,6 +101,10 @@ Rodar as migrations
 ```
 php artisan migrate
 ```
+Rodar os testes
+```
+php artisan test
+```
 
 ### OBS: A documentação das APIs estão no arquivo Documentation.md, dentro da raiz do projeto.
 
