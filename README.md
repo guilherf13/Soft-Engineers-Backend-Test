@@ -29,7 +29,7 @@ https://www.docker.com/
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento para a execução do teste.
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento para a execução do projeto.
 
 Baixar o Docker.
 
