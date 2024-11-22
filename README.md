@@ -39,7 +39,7 @@ Link para dowload: https://www.docker.com/
 Clonar o repositorio do github
 
 ```
-https://github.com/guilherf13/Soft-Engineers-Backend-Test.git
+https://github.com/guilherf13/csv-import-optimization.git
 ```
 Entre dentro da pasta backend
 
