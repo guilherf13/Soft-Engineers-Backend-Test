@@ -13,7 +13,7 @@ Ultiliza Redis para processamento de Jobs.
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do teste feito por mim.
+Essas instruções permitirão que você obtenha uma cópia do projeto.
 
 ### 📋 Pré-requisitos
 
