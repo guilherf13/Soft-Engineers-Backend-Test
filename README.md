@@ -1,8 +1,8 @@
-# Kanastra - Soft Engineers Backend Test
+# Processamento de arquivos CSV. 
 
-Teste para Desenvolvedor Backend
+O objetivo desse projeto é processar a entrada de um arquivo csv contendo mais de 500.000 (Quinhentas mil) linhas em poucos minutos. 
 
-## ⚙️ Um pouco sobre a organização do Teste
+## ⚙️ Um pouco sobre a organização do projeto
 
 O projeto esta divido em camadas. 
 
